@@ -22,3 +22,4 @@ fetchData().then((data) => {
   console.log(`Error: ${err}`)
 })
 
+
