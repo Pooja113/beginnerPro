@@ -27,3 +27,55 @@ if(fName) {
 else {
   console.log("Checking the falsy values")
 }
+
+
+//ternary operator
+const age = 15
+const check = age >= 31 ? "yoga" : "exercise";
+console.log(check)
+
+const day = 4;
+switch(day) {
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;   
+  default:
+    console.log("Days after wednesday");
+}
+
+const calToNum = 11;
+let i = 0;
+let add = 0;
+while(i <= calToNum) {  
+  add += i
+  i++
+}
+console.log(add)
+
+
+//break and continue
+for(let i = 0; i <= 10; i++){
+  if(i == 3) continue;
+  else if(i == 8) break;
+  console.log(i)
+}
+
+
+const pracArr = ["a", "b", "c"];
+for(const prac of pracArr) {
+  console.log(prac)
+}
+for(const i in pracArr) {
+  console.log(pracArr[i])
+}
+
+const [val1, ...val3] = pracArr
+console.log(val1, val3)
+console.log(Array.isArray(pracArr))
+  
