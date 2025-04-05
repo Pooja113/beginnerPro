@@ -21,7 +21,7 @@ a {
 .container {
   max-width: 1200;
   margin: auto;
-  width: 90%;
+  width: 70%;
 }
 
 .nav {
@@ -58,4 +58,78 @@ a {
   font-size: 1rem;
   margin-top: 1rem;
   font-weight: 600;
+}
+
+.todo-list {
+   margin-top: 5rem;
+   text-align: center; 
+}
+
+.form-todo {
+  display: flex;
+  min-height: 5vh;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.form-todo input {
+  min-height: 100%;
+}
+
+.form-todo input[type="text"] {
+  width: 78%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.form-todo input[type="submit"] {
+  width: 20%;
+  background-color: #d4d4d4;
+  font-weight: bold;
+}
+
+.signup-section {
+  margin: 5rem auto;
+  text-align: center;
+  background-color: #ece9e9;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.signup-form {
+  min-width: 700px;
+  width: 80%;
+  text-align: left;
+  margin: auto;
+}
+
+.form-group {
+  margin-top: 1rem;
+}
+
+.signup-form label {
+  display: block;
+}
+
+.signup-form input {
+  width: 100%;
+  display: block;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: #d4d4d4;
+}
+
+.signup-form textarea {
+  width: 100%;
+  border-radius: 5px;
+  border: #d4d4d4;
+}
+
+.signup-btn {
+  background-color: #d4d4d4;
+  padding: 1rem 2rem;
+  display: block;
+  margin: 1rem auto;
+  font-weight: bold;
 }
