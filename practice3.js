@@ -37,3 +37,4 @@ const users = [
 const [{ userfN }, { userLN }] = users
 
 console.log(userfN, userLN)
+
