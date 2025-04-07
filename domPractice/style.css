@@ -89,6 +89,27 @@ a {
   font-weight: bold;
 }
 
+.todos {
+  color: white;
+  text-align: left;
+}
+
+.todos li {
+  text-transform: capitalize;
+  list-style: none;
+  margin-top: 0.6rem;
+  background-color: rgb(63, 62, 62);
+  padding: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+}
+
+.todo-btn {
+  padding: 0.6rem;
+  cursor: pointer;
+}
+
 .signup-section {
   margin: 5rem auto;
   text-align: center;
@@ -133,3 +154,4 @@ a {
   margin: 1rem auto;
   font-weight: bold;
 }
+

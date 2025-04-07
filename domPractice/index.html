@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link href="./style.css" rel="stylesheet"/>
-  <script src="dynamic.js" defer></script>
+  <!-- <script src="dynamic.js" defer></script> -->
+  <!-- <script src="events.js" defer></script> -->
+  <script src="createTodo.js" defer></script>
+
 </head>
 <body>
   <header class="header">
@@ -25,9 +28,18 @@
   <section class="todo-list container">
     <h2>Today's Plan</h2>
     <form class="form-todo">
-      <input type="text" name="" placeholder="Add Todo"/>
+      <input type="text" name="addtodo" placeholder="Add Todo"/>
       <input type="submit" value="Add Todo" class="btn"/>
     </form>
+    <ul class="todos">
+      <li>
+        <span>Todo</span>  
+        <div>
+          <button class="todo-btn done">Done</button>
+          <button class="todo-btn remove">Remove</button>
+        </div>
+      </li>
+    </ul>
   </section>
   <section class="signup-section container">
     <h2>Sign Up</h2>

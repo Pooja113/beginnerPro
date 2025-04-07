@@ -27,7 +27,22 @@ console.log(attr)
 const all=document.querySelectorAll(".nav-item")
 console.log(all) // Nodelist
 
-const head = document.querySelector("div")
+const head = document.querySelector(".headline")
 console.log(head.childNodes[1])
-head.childNodes[1].innerHTML = "<h2 id='main-heading'>Manage List</h2>"
+head.children[0].innerHTML = "<h2 id='main-heading'>Manage List</h2>" //it has performance issues
 
+// ClassLIst
+head.children[0].classList.add("check-class")
+head.children[0].classList.toggle("check-class") //toggle the class if exists
+
+const addListItem = document.createElement("li")
+addListItem.textContent = "Todo 2"
+const cloning= addListItem.cloneNode(true)
+document.querySelector(".todos").append(addListItem)
+document.querySelector(".todos").prepend(cloning)
+
+console.log(addListItem)
+
+console.log(addListItem.getBoundingClientRect())
+
+// after and before can also be used as well as remove
