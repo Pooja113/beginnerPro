@@ -30,7 +30,7 @@ function changeColor(element,text, time, onSuccess, onFailure){
   }, time);
 }
 
-// pyramid of doom
+// pyramid of doom 
 changeColor(heading1, "New Heading 1", 1000, () => {
   changeColor(heading2, "New Heading 2", 1000, () => {
     changeColor(heading3, "New Heading 3", 1000,  () => {
