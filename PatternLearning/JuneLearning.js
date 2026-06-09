@@ -47,8 +47,7 @@ k = 3
 console.log(containsNearbyDuplicate(nums, k))
 
 
-
-
+// 242. Valid Anagram
 var isAnagram = function(s, t) {
     if(s.length !== t.length) return false
     let arr = new Array(26).fill(0)
@@ -63,4 +62,11 @@ var isAnagram = function(s, t) {
     return true
 };
 
-console.log(isAnagram("anagram","nagaram"))
+console.log(isAnagram("anagram", "nagaram"))
+
+// 49. Group Anagrams
+
+var groupAnagrams = function(strs) {
+    
+};
+
